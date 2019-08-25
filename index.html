@@ -12,6 +12,9 @@
 			font-family: 'Cutive Mono', monospace;
 			color: white;
 			font-size: 150%;
+			margin: 0;
+			padding: 0;
+			background-image: linear-gradient(125deg,#F60000,#FF8C00,#FFEE00,#4DE94C,#3783FF,#4815AA)
         }
         p {
         	color: white;
@@ -22,13 +25,22 @@
 		header{
 			margin: 100px;
 		}
-		.notapornlink{
-			color: black;
-			
+		.unicorn{
+			z-index: 2;
+			position: absolute;
+			height: 200px;
+			width: 240px;
+			padding-left: 100px;
+		}
+		.skittles{
+			position: absolute;
+			z-index: 3;
 		}
     </style>
   </head>
   <body>
+  <img src="https://clipartstation.com/wp-content/uploads/2018/10/unicorn-clipart-transparent-background-1.png" class="unicorn">
+  <img src="http://www.transparentpng.com/thumb/sparkle/eEorFY-sparkle-clipart-png-photos.png" class="skittles">
 	  <header><a href="index.html">home</a> | <a href="info.html">info</a> | <a href="downloads.html">downloads</a> | <a href="contact.html">contact</a></header>
     <p> tom is boppin to beats<br>
     <br>
@@ -75,9 +87,6 @@
     </audio>
   </div>
 </div>
-  <p>
-  	<a href="https://notapornlink.com" class="notapornlink">stop touch</a>
-  </p>
     <script src="js/index.js"></script>
   </body>
 </html>
